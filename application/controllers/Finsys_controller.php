@@ -97,4 +97,47 @@ class Finsys_controller extends CI_Controller
 	{
 		$this->load->view('services/serviceProvider');
 	}
+	public function email(){
+		//$mail = "info@finsys-group.com";
+		$mail = "mwauragitonga12@gmail.com";
+		//get form details from user
+		$fullname = $this->input->post("fName");
+		$email = $this->input->post("email");
+		$message = $this->input->post("message");
+		$title = "INQUIRY FROM: ";
+
+
+			//mail configurations
+		$this->load->library('email');
+		$config['protocol'] = 'smtp';
+		$config['smtp_host'] = 'finsys.co.ke';
+		$config['smtp_port'] = '465';
+		$config['smtp_user'] = 'comms@finsys.co.ke';
+		$config['smtp_pass'] = 'K0Junga$';
+		$config['smtp_crypto'] = 'ssl';
+		$config['charset'] = 'iso-8859-1';
+		$config['wordwrap'] = TRUE;
+		$this->email->initialize($config);
+		$this->email->set_newline("\r\n");
+		$this->email->set_mailtype("html");
+		$this->email->from($email);
+		$this->email->to($mail);
+		$this->email->subject($title. " ". $fullname);
+		$this->email->message($message);
+
+		try {
+			$this->email->send();
+			$message= 'Email Sent, We will be in touch ASAP.';
+			$data= array(
+				'message'=>$message
+			);
+			$this->load->view('contact.php', $data);
+		} catch (Exception $e) {
+			$message= 'Email not sent! Please try again.';
+			$data= array(
+				'message'=>$message
+			);
+			$this->load->view('contact.php', $data);
+		}
+	}
 }

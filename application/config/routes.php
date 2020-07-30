@@ -57,6 +57,7 @@ $route['contact'] = 'FinSys_controller/contact';
 $route['home'] = 'FinSys_controller/index';
 $route['partners'] = 'FinSys_controller/partnerships';
 $route['services'] = 'FinSys_controller/services';
+$route['sendMail'] = 'FinSys_controller/email';
 /*services subMenu*/
 $route['networking'] = 'FinSys_controller/networking';
 $route['cyber-security'] = 'FinSys_controller/cyberSecurity';

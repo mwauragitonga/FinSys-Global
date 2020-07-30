@@ -9,12 +9,6 @@
 			<div class="col-lg-8 ml-auto">
 				<div class="row">
 					<div class="col-lg-4 ml-auto">
-						<h2 class="footer-heading mb-4">Useful Links</h2>
-						<ul class="list-unstyled">
-							<li><a href="#">Terms of Service</a></li>
-							<li><a href="#">Privacy</a></li>
-							<li><a href="#">Contact Us</a></li>
-						</ul>
 					</div>
 					<div class="col-lg-4">
 						<h2 class="footer-heading mb-4">Navigation</h2>
