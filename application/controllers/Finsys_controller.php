@@ -13,20 +13,28 @@ class Finsys_controller extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
-		$this->data ['title'] = "FinSys | Home";
+		$this->data ['title'] = "FinSys Group| Home";
 		$this->data ['description'] = "";
 
-		$this->load->model('FinSys_model');
+//		$this->load->model('FinSys_model');
 		$this->load->library('upload');
 		//$this->load->library("bcrypt");
 	}
 
 	public function index()
 	{
+		//$this->force_ssl();
 		$this->load->view('index');
 
 	}
-
+	public function force_ssl()
+	{
+		if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != "on") {
+			$url = "https://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+			redirect($url);
+			exit;
+		}
+	}
 	public function projects()
 	{
 		$this->load->view('projects');
@@ -45,6 +53,10 @@ class Finsys_controller extends CI_Controller
 	public function contact()
 	{
 		$this->load->view('contact');
+	}
+	public function contactEA()
+	{
+		$this->load->view('contactEA');
 	}
 	public function partnerships()
 	{
@@ -98,8 +110,8 @@ class Finsys_controller extends CI_Controller
 		$this->load->view('services/serviceProvider');
 	}
 	public function email(){
-		//$mail = "info@finsys-group.com";
-		$mail = "mwauragitonga12@gmail.com";
+		$mail = "info@finsys-group.com";
+//		$mail = "mwauragitonga12@gmail.com";
 		//get form details from user
 		$fullname = $this->input->post("fName");
 		$email = $this->input->post("email");

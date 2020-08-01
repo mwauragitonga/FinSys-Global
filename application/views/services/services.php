@@ -9,7 +9,7 @@
 <div class="row align-items-center justify-content-center text-center">
 	<div class="col-md-5 mt-5 pt-5">
 		<h1 class="mb-3">What We Do</h1>
-		<p>FinSys Technologies prides itself as being the premier IT Service provider facilitating the digital
+		<p>Finsys  prides itself as being the premier IT Service provider facilitating the digital
 			transformation across different verticals.</p>
 		<p><a href="#services" class="btn btn-primary">Explore <span class="icon-arrow-down"></span></a></p>
 	</div>
@@ -47,7 +47,7 @@
 			</div>
 			<div class="col-md-6 col-lg-4 mb-4">
 				<div class="news-1"
-					 style="background-image: url('<?php echo base_url(); ?>assets/images/services/networking.jpg');">
+					 style="background-image: url('<?php echo base_url(); ?>assets/images/services/networking/lan.jpg');">
 					<div class="text">
 						<span class="category d-block mb-3">Networking</span>
 						<p class="mb-4">Build a good foundation for your business through our superior networking

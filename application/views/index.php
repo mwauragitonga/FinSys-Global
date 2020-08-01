@@ -9,7 +9,7 @@
 					<div class="col-md-5 mt-5 pt-5">
 						<h1 class="mb-3">A High End ICT Solutions Company.</h1>
 						<p>We are a company passionate about using technology to help businesses improve operations, streamline operations  and ultimately
-							grow by providing  software and hardware Solutions.</p>
+							grow by providing  software and hardware solutions.</p>
 						<style type="text/css">
 							#aboutButton , #servicesButton {
 								display:inline-block;

@@ -2,8 +2,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
-				<h2 class="footer-heading mb-3">FinSys Technologies</h2>
-				<p class="mb-5">Leveraging on technology to grow business while impacting a life after another for the better. </p>
+				<h2 class="footer-heading mb-3">Finsys Group</h2>
+				<p class="mb-5">Leveraging on technology to improve efficiency, performance and  grow your business. </p>
 
 			</div>
 			<div class="col-lg-8 ml-auto">
@@ -13,9 +13,9 @@
 					<div class="col-lg-4">
 						<h2 class="footer-heading mb-4">Navigation</h2>
 						<ul class="list-unstyled">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Our Services</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<li><a href="<?php echo base_url(); ?>home">Home</a></li>
+							<li><a href="<?php echo base_url(); ?>services">Our Services</a></li>
+							<li><a href="<?php echo base_url(); ?>contact">Contact Us</a></li>
 						</ul>
 
 					</div>
@@ -30,7 +30,7 @@
 				<div class="border-top pt-5">
 					<p>
 
-						<script>document.write(new Date().getFullYear());</script> by <a href="" target="_blank" >U70XDN</a>
+						<a href="" target="_blank" >Copyright  </a><script>document.write(new Date().getFullYear());</script>
 
 					</p>
 				</div>

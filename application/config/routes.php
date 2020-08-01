@@ -50,24 +50,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'Finsys_controller';
-$route['projects'] = 'FinSys_controller/projects';
-$route['about'] = 'FinSys_controller/about';
-$route['blog'] = 'FinSys_controller/blog';
-$route['contact'] = 'FinSys_controller/contact';
-$route['home'] = 'FinSys_controller/index';
-$route['partners'] = 'FinSys_controller/partnerships';
-$route['services'] = 'FinSys_controller/services';
-$route['sendMail'] = 'FinSys_controller/email';
+$route['projects'] = 'Finsys_controller/projects';
+$route['about'] = 'Finsys_controller/about';
+$route['blog'] = 'Finsys_controller/blog';
+$route['contact'] = 'Finsys_controller/contact';
+$route['contact-ea'] = 'Finsys_controller/contactEA';
+$route['home'] = 'Finsys_controller/index';
+$route['partners'] = 'Finsys_controller/partnerships';
+$route['services'] = 'Finsys_controller/services';
+$route['sendMail'] = 'Finsys_controller/email';
 /*services subMenu*/
-$route['networking'] = 'FinSys_controller/networking';
-$route['cyber-security'] = 'FinSys_controller/cyberSecurity';
-$route['business-apps'] = 'FinSys_controller/businessApps';
-$route['unified-communications'] = 'FinSys_controller/unifiedCommunications';
-$route['cloud'] = 'FinSys_controller/cloud';
-$route['infosec'] = 'FinSys_controller/infosec';
-$route['datacentre'] = 'FinSys_controller/datacentre';
-$route['consultancy'] = 'FinSys_controller/consultancy';
-$route['service-provider'] = 'FinSys_controller/serviceProvider';
+$route['networking'] = 'Finsys_controller/networking';
+$route['cyber-security'] = 'Finsys_controller/cyberSecurity';
+$route['business-apps'] = 'Finsys_controller/businessApps';
+$route['unified-communications'] = 'Finsys_controller/unifiedCommunications';
+$route['cloud'] = 'Finsys_controller/cloud';
+$route['infosec'] = 'Finsys_controller/infosec';
+$route['datacentre'] = 'Finsys_controller/datacentre';
+$route['consultancy'] = 'Finsys_controller/consultancy';
+$route['service-provider'] = 'Finsys_controller/serviceProvider';
 
 
 $route['404_override'] = '';

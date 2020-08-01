@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>FinSys Group</title>
+	<title>Finsys Group</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
@@ -40,12 +40,15 @@
 		<div class="container mb-3">
 			<div class="d-flex align-items-center">
 				<div class="site-logo mr-auto">
-					<a href="<?php echo base_url(); ?>home">FinSys Group<span class="text-primary">.</span></a>
+					<a href="<?php echo base_url(); ?>home">Finsys Group<span class="text-primary">.</span></a>
 				</div>
 				<div class="site-quick-contact d-none d-lg-flex ml-auto ">
 					<div class="d-flex site-info align-items-center mr-5">
-						<span class="block-icon mr-3"><span class="icon-map-marker"></span></span>
-						<span>34 Rhapta Road <br> Nairobi, Kenya</span>
+<!--						<span class="block-icon mr-3"><span class="icon-map-marker"></span></span>-->
+<!--						<span>Westside Towers-->
+<!--							Lower Kabete Rd <br>-->
+<!--							Nairobi, Kenya</span>	-->
+<!--					-->
 					</div>
 					<div class="d-flex site-info align-items-center">
 						<span class="block-icon mr-3"><span class="icon-clock-o"></span></span>
@@ -96,35 +99,18 @@
 							</div>
 						</li>
 						<li><a href="<?php echo base_url(); ?>partners" class="nav-link">Partnerships</a></li>
-						<li><a href="<?php echo base_url(); ?>contact" class="nav-link">Contact Us</a></li>
-
+<!--						<li><a href="--><?php //echo base_url(); ?><!--contact" class="nav-link">Contact Us</a></li>-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown" data-toggle="dropdown" href="#" role="button"
+							   aria-haspopup="true" aria-expanded="false">Contact Us </a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="<?php echo base_url(); ?>contact">Finsys Global</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="<?php echo base_url(); ?>contact-ea">Finsys East Africa</a>
+							</div>
+						</li>
 					</ul>
 				</nav>
-				<style type="text/css">
-					@media screen and (min-width: 0px) and (max-width: 767px) {
-						.mobile-hide{
-							float: right;
-							font-size: 09px;
-						}
-					}
-					@media screen and (min-width: 768px) and (max-width: 840px) {
-						.mobile-hide{
-							margin-left: 15%;
-							font-size: 13px;
-						}
-					}
-					@media screen and (min-width: 1024px) and (max-width: 1027px) {
-						.mobile-hide{
-
-							font-size: 13px;
-						}
-					}
-				</style>
-				<div class="top-social mobile-hide">
-					<span class="icon-phone_in_talk"> </span> +1 573 260 4219
-					<a href="#"><span class="icon-mail_outline"> </span> info@finsys-group.com</a>
-				</div>
-
 			</div>
 		</div>
 
