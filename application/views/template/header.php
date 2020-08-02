@@ -50,10 +50,7 @@
 <!--							Nairobi, Kenya</span>	-->
 <!--					-->
 					</div>
-					<div class="d-flex site-info align-items-center">
-						<span class="block-icon mr-3"><span class="icon-clock-o"></span></span>
-						<span>Monday - Friday 8:00AM - 5:00PM <br>Saturday - Sunday  CLOSED</span>
-					</div>
+
 
 				</div>
 			</div>
