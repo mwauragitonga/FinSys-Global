@@ -122,10 +122,10 @@ class Finsys_controller extends CI_Controller
 			//mail configurations
 		$this->load->library('email');
 		$config['protocol'] = 'smtp';
-		$config['smtp_host'] = 'finsys.co.ke';
+		$config['smtp_host'] = 'finsys-group.com';
 		$config['smtp_port'] = '465';
-		$config['smtp_user'] = 'comms@finsys.co.ke';
-		$config['smtp_pass'] = 'K0Junga$';
+		$config['smtp_user'] = 'comms@finsys-group.com';
+		$config['smtp_pass'] = 'D%bEPUE523yR';
 		$config['smtp_crypto'] = 'ssl';
 		$config['charset'] = 'iso-8859-1';
 		$config['wordwrap'] = TRUE;
