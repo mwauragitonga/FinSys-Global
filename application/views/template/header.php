@@ -80,6 +80,9 @@
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="<?php echo base_url(); ?>networking">Networking</a>
 								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="<?php echo base_url(); ?>automation">Automation & Programmability</a>
+								<div class="dropdown-divider"></div>
+
 								<a class="dropdown-item" href="<?php echo base_url(); ?>unified-communications">Unified
 									Communications</a>
 								<div class="dropdown-divider"></div>

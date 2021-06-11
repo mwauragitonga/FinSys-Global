@@ -101,9 +101,14 @@ class Finsys_controller extends CI_Controller
 	public function datacentre()
 	{
 		$this->load->view('services/datacentre');
-	}public function cloud()
+	}
+	public function cloud()
 	{
 		$this->load->view('services/cloud');
+	}
+	public function automation()
+	{
+		$this->load->view('services/automation');
 	}
 	public function serviceProvider()
 	{

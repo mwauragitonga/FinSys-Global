@@ -61,6 +61,7 @@ $route['services'] = 'Finsys_controller/services';
 $route['sendMail'] = 'Finsys_controller/email';
 /*services subMenu*/
 $route['networking'] = 'Finsys_controller/networking';
+$route['automation'] = 'Finsys_controller/automation';
 $route['cyber-security'] = 'Finsys_controller/cyberSecurity';
 $route['business-apps'] = 'Finsys_controller/businessApps';
 $route['unified-communications'] = 'Finsys_controller/unifiedCommunications';

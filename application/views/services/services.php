@@ -59,6 +59,19 @@
 
 			</div>
 
+			<div class="col-md-6 col-lg-4 mb-4">
+				<div class="news-1"
+					 style="background-image: url('<?php echo base_url(); ?>assets/images/services/automation/ansible.png');">
+					<div class="text">
+						<span class="category d-block mb-3">Automation & Programmability</span>
+						<p class="mb-4">We unlock the power of Cisco programmable APIs within network and unified
+							collaboration automation and programmability space.</p>
+						<a href="#" class="d-block arrow-wrap"><span class="icon-arrow_forward"></span></a>
+					</div>
+				</div>
+				<h5 style="margin-left: 0%"><a href="<?php echo base_url(); ?>automation">Automation & Programmability </a></h5>
+
+			</div>
 
 			<div class="col-md-6 col-lg-4 mb-4">
 				<div class="news-1"
@@ -122,19 +135,6 @@
 					</div>
 				</div>
 				<h5 style="margin-left: 20%"><a href="<?php echo base_url(); ?>consultancy"> Consultancy Services</a></h5>
-
-			</div>
-			<div class="col-md-6 col-lg-4 mb-4">
-				<div class="news-1"
-					 style="background-image: url('<?php echo base_url(); ?>assets/images/services/erp.jpg');">
-					<div class="text">
-						<span class="category d-block mb-3">ERP Systems</span>
-						<p class="mb-4">High level Enterprise Systems to help you get the best of al
-							l resources and planning across all business levels.</p>
-						<a href="#" class="d-block arrow-wrap"><span class="icon-arrow_forward"></span></a>
-					</div>
-				</div>
-				<h5 style="margin-left: 0%"><a href="<?php echo base_url(); ?>consultancy">Enterprise Resource Planning </a></h5>
 
 			</div>
 

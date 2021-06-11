@@ -57,7 +57,19 @@
 <script src="<?php echo base_url(); ?>assets/js/aos.js"></script>
 
 <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
+<script>
 
+	window.fwSettings={
+
+		'widget_id':69000000730
+
+	};
+
+	!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}()
+
+</script>
+
+<script type='text/javascript' src='https://widget.freshworks.com/widgets/69000000730.js' async defer></script>
 </body>
 
 </html>

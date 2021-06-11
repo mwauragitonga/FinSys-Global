@@ -23,7 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://www.finsys-group.com';
+$config['base_url'] = 'http://localhost/Finsys-Global/';
+//$config['base_url'] = 'https://www.finsys-group.com';
 
 /*
 |--------------------------------------------------------------------------
