@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/fonts/flaticon/font/flaticon.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/aos.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <!--TODO ADD gOOGLE Analytics trackers-->
 	<!-- MAIN CSS -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
@@ -67,13 +68,53 @@
 					.dropdown:hover > .dropdown-menu {
 						display: block;
 					}
+					@media only screen and (max-width: 991px) {
+
+					/* Hide element on Desktop */
+					@media only screen and (min-width: 981px) {
+						.hide-on-desktop {
+							display: none !important;
+						}
+					}
+					/* Hide element on Tablet/Phone */
+					@media only screen and (max-width: 980px) {
+						.hide-on-mobile-tablet {
+							display: none !important;
+						}
+					}
 				</style>
 				<nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
 					<ul class="site-menu main-menu js-clone-nav mr-auto ">
 						<li class="active"><a href="<?php echo base_url(); ?>home" class="nav-link">Home</a></li>
 						<!--TODO active Menu switch-->
-						<li class="nav-item dropdown ">
-							<a class="nav-link" href="<?php echo base_url(); ?>services" role="button"
+						<li class="nav-item dropdown   hide-on-mobile-tablet ">
+							<a class="nav-link " id="isDisabled"  href="<?php echo base_url(); ?>services" role="button"
+							   aria-haspopup="true" aria-expanded="false">Our Services </a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="<?php echo base_url(); ?>cyber-security">Cyber Security</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="<?php echo base_url(); ?>networking">Networking</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="<?php echo base_url(); ?>automation">Automation & Programmability</a>
+								<div class="dropdown-divider"></div>
+
+								<a class="dropdown-item" href="<?php echo base_url(); ?>unified-communications">Unified
+									Communications</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="<?php echo base_url(); ?>datacentre">Data Centre Solutions</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="<?php echo base_url(); ?>service-provider">Service Provider
+									</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="<?php echo base_url(); ?>cloud"> Cloud Solutions
+									</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="<?php echo base_url(); ?>consultancy">Professional
+									Services</a>
+							</div>
+						</li>
+						<li class="nav-item  hide-on-desktop">
+							<a class="nav-link "  role="button" data-toggle="dropdown"
 							   aria-haspopup="true" aria-expanded="false">Our Services </a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="<?php echo base_url(); ?>cyber-security">Cyber Security</a>
@@ -116,3 +157,14 @@
 
 
 	</header>
+	<script type="text/javascript">
+
+	$(document).ready( function() {
+	if (screen.width <= 991) {
+	$('.isDisabled a').on('click', function (event) {
+	event.preventDefault();
+	});
+	}
+	});
+
+	</script>
