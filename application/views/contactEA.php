@@ -65,7 +65,7 @@
 														<span class="d-block "style="color: red">Address:</span>
 														<span>7th Floor - Westside Towers, <br>
 															Lower Kabete Road - Nairobi, Kenya.</span></li>
-						<li class="d-block mb-3"><span class="d-block" style="color: red">Phone:</span><span>+254 733 660 408</span></li>
+						<li class="d-block mb-3"><span class="d-block" style="color: red">Phone:</span><span>+254 207 640 213</span></li>
 						<li class="d-block mb-3"><span class="d-block "style="color: red">Email:</span><span>info@finsys-group.com</span></li>
 					</ul>
 				</div>
