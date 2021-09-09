@@ -68,7 +68,7 @@
 					.dropdown:hover > .dropdown-menu {
 						display: block;
 					}
-					@media only screen and (max-width: 991px) {
+					@media only screen and (max-width: 991px) {}
 
 					/* Hide element on Desktop */
 					@media only screen and (min-width: 981px) {
@@ -113,8 +113,8 @@
 									Services</a>
 							</div>
 						</li>
-						<li class="nav-item  hide-on-desktop">
-							<a class="nav-link "  role="button" data-toggle="dropdown"
+						<li class="hide-on-desktop nav-item">
+							<a class="nav-link " role="button" data-toggle="dropdown"
 							   aria-haspopup="true" aria-expanded="false">Our Services </a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="<?php echo base_url(); ?>cyber-security">Cyber Security</a>
